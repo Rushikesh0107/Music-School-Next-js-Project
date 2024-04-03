@@ -19,7 +19,7 @@ const NavBar = ({ className }: { className?: string }) => {
                 <div
                 className="flex flex-col space-y-2 text-sm gap-2"
                 >
-                    <HoveredLink href={"/all-courses"}>All Courses</HoveredLink>
+                    <HoveredLink href={"/courses"}>All Courses</HoveredLink>
                     <HoveredLink href={"/basic-music-theory"}>Basic Music Theory</HoveredLink>
                     <HoveredLink href={"/advance-compostion"}>Advance Composition</HoveredLink>
                     <HoveredLink href={"/songwriting"}>SongWriting</HoveredLink>
